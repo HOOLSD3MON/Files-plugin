@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JUCERPROJECT id="HnB1Fp" name="Equalini" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Equalini" jucerFormatVersion="1">
+  <MAINGROUP id="B1AZIz" name="Equalini">
+    <GROUP id="{F0DADF4E-AADC-4A82-B1A4-03755BE2A63F}" name="Source">
+      <FILE id="KJ9tzl" name="PluginProcessor.cpp" compile="1" resource="0" file="Source/PluginProcessor.cpp"/>
+      <FILE id="a2vF0M" name="PluginProcessor.h" compile="0" resource="0" file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX"/>
+    <VS2022 targetFolder="Builds/VisualStudio2022"/>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+</JUCERPROJECT>
